@@ -1,0 +1,107 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large ESLEM GÜLER}\\[2pt] % Name
+\href{mailto:example@example.com}{eslemsugra@gmail.com} | \href{https://www.linkedin.com/in/johndoe}{linkedin.com/in/eslemguler} % Contact info
+\end{center}
+
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{Yıldız Technical University}, Istanbul, Turkey \hfill 09-2017/01-2023\\ % University name and location
+Bachelor of Science in Mathematical Engineering \hfill Overall GPA: 3.52/4.0\\ % Degree and GPA
+\textbf{Brno University of Technology}, Brno, Czech Republic \hfill 09-2021/02-2022\\ % University name and location
+Erasmus Exchange Program \hfill Overall GPA: 3.0/4.0 % Degree and GPA
+% Experience Section
+\section*{WORK EXPERIENCE}
+\noindent
+\textbf{R\&D Data Scientist at Migros} \hfill 04-2023/Present 
+\begin{itemize}
+\item My work involves implementing algorithms in Python across the entire machine learning pipeline. This includes conducting exploratory analyses on diverse datasets, performing hypothesis tests, extracting meaningful features from raw data, and constructing machine learning models for classification or regression tasks.
+    \item Promotion Success Identifier Project: The main idea of this project is to build a model that predicts whether a future promotion will succeed. Currently, the model can classify \%86 of the upcoming promotions correctly. This project is presented at the INFUS conference 2023.
+    \item Apart from modeling, I also take part in creating articles and analyses as part of the R\&D department. In one of my upcoming articles, I studied panic sales during COVID-19. The main purpose is to prepare and provide insights to the retail sector about unpredicted times.
+\end{itemize}
+
+% Additional Experience or Volunteer Work
+\noindent
+\textbf{Reporting and Data Analytics Specialist at Sony} \hfill 01-2023/04-2023 
+\begin{itemize}
+    \item My main responsibility was to design data processing, analysis, and reporting flows. The flows I created increased business efficiency by reducing time by 40\%. These flows are currently utilized in over 40 C-level reports. 
+\end{itemize}
+
+\noindent
+% Club or Organization Experience
+\textbf{Data Scientist at Greenmusk} \hfill 03-2022, 12-2022 
+\begin{itemize}
+    \item I worked as a data scientist in the development of a mentor-mentee matching application and my team was responsible for creating a recommendation system entirely from scratch. % Responsibilities and achievements
+    \item My work encompassed diverse responsibilities, including developing a LinkedIn profile scraper to generate dummy data, establishing databases, conducting hypothesis testing, and preprocessing. I utilized NLP methods such as cosine similarity for feature engineering, combining multiple machine learning algorithms.
+\end{itemize}
+
+\noindent
+% Club or Organization Experience
+\textbf{Growth Analyst at Glocalzone} \hfill 01-2021, 05-2021 
+\begin{itemize}
+    \item I conducted pathway analysis on user path data, examining the journey of over 200K app users, and provided insights, resulting in a 26\% decrease in churn rate and approximately 40\% increase in user engagement time.
+\end{itemize}
+
+% Skills Section
+\section*{ACHIEVEMENTS}
+\begin{itemize}
+    \item Graduated as the second-ranked student in the department of Mathematical Engineering
+    \item Awarded Erasmus Grant by European Union under Erasmus Exchange Program
+    \item Reckitt Camp Case Study Winner 2022
+    \item IEEE YTU Stargate Entrepreneurship Competition Winner 2021
+    \item Social Impact Award Turkey Winner 2020
+\end{itemize}
+
+% Projects Section
+\section*{PROJECTS}
+% Additional Project
+\noindent
+\textbf{Career Path Guide: LinkedIn Profile Insights} \\
+\ The "Career Path Guide" is a Python-based tool designed to analyze LinkedIn profiles and offer personalized career advice. Leveraging NLP, BERT-based methods, and classification techniques, it examines user profiles to suggest potential future job titles and recommends skills necessary for career advancement.
+
+\noindent
+\textbf{Predictive Employee Churn Analysis at Garanti BBVA} \\
+\ Performed predictive modeling employing the LightGBM classifier post data cleaning and feature engineering for employee churn analysis at Garanti BBVA's Datacamp.
+
+\noindent
+\textbf{LinkedIn Profile Data Scraper} \\
+\ LinkedIn profile data was scraped and compiled for company data creation using Selenium in Python.
+\href{https://github.com/eslemguler/Linkedin-Profile-Scraper}{Project Link}
+
+% Volunteer Activities
+\section*{VOLUNTEER EXPERIENCE \& LEADERSHIP ACTIVITIES}
+\begin{itemize}
+    \item Ran 15KM to raise awareness for the development of future generations in Istanbul Marathon \hfill 11-2023
+    \item IT project member, following the Turkey earthquake, enabling more effective distribution of essential aid.\hfill 02-2023
+    \item Junior Student Mentor for YTU Mentorship Club \hfill 01-2023/Present
+    \item Turkish Foundation for Combating Soil Erosion (TEMA) Volunteer \hfill 07-2020/Present
+    \item Kodluyoruz x CS50 Fellow \hfill 05-2020/02-2021
+    \item YTU Entrepreneurship Club Academy Coordinator \hfill 05-2019/06-2020
+    \item Turkish Marine Environment Protection Association (TURMEPA) Volunteer \hfill 01-2019/01-2020
+\end{itemize}
+
+
+% End document
+\end{document}
